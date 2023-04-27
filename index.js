@@ -8,7 +8,6 @@
 //}
 
 
-
 //console.log(minhafuncao(2))
 //console.log(minhafuncao(10))
 
@@ -19,7 +18,6 @@
 //vai ser impresso:
 //10 
 //50
-
 
 
 //B)o que aconteceria c tirasemos os dois console.log e simplesmente 
@@ -46,7 +44,6 @@
 //procura a palavra dentro do texto e retorna true ou false
 
 
-
 //EXERCICIOS DE ESCRITA DE CÓDIGO
 
 
@@ -57,30 +54,32 @@
 //voce.lembrando que a funcao ano possui entradas, apenas imprime as mensagens
 
 
+//function imprimir(){
+  //return "eu sou emily, tenho 15 anos, moro em sl e sou estudante"
 
-
-
-
-
-
+//}
+//console.log(imprimir())
 
 
 //B)faça uma funcao que recebe 2 numeros e retorne um boleano que informase o primeiro numero
 //é maior ou igual ao segundo.
 
 
+//function retornaMaior(num1, num2){
+  //return num1 >=  num2
 
-
-
+//}
+//alert(retornaMaior(Number(23),Number(2)))
 
 
 //C)escreva uma funcao que receba um numero e devolva um booleano indicando se ele é par ou nao
 
+//function ePar(num){
 
+  //return num % 2 === 0;
 
-
-
-
+//}
+//alert(ePar(1)); 
 
 
 //D)faça uma função  que recebe uma mensagem(string)como parametro e imprima o tamanho dessa 
@@ -96,39 +95,22 @@
 //console.log(exibirMensagem('vamos gremio'));
 
 
+//3)agora escreva uma função que receba 4 parametros que correspondem ás informações de uma pessoa;
+//o nome(string) a idade(number) a cidade(string) e uma profisão (string).Ela deve retornar uam string
+//que unifique todas as informações de pessoas em uma só mensagem com o template.
 
 
+//nao cei(:
 
 
-//3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-//DESAFIO-1
-
-
-
+//DESAFIOS
 
 //A)
 
-
-
-
-
-
-
-
-
+let desfioA = (meuTime) => {
+  return meuTime;
+} 
+alert(desfioA('brasil'))
 
 
 
@@ -140,14 +122,15 @@
 //console.log(hipo(3,4).toFixed(2));
 
 
-
-
 //aula 26/04
 
+//teste
 
-function executa(variavel){
-  return variavel = 356;
+//function executa(variavel){
+  //return variavel = 356;
 
-}
-executa(5);
+//}
+//executa(5);
+//console.log (executa(5));
 
+//retornou só com o console.log
